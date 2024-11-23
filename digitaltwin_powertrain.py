@@ -846,12 +846,12 @@ class Motor:
 
     def example():
         motor = Motor(0.39, 1.41, 0.094, 0.094, 0.091, 0.04, 0.01, q1=1, q2=1, q3=0, valor_mu=1) # Varia o valor de mu entre 0 e 1
-        # motor.simulate()
-        # motor.plot_motor()
-        # motor.plot_bode()
-        # motor.plot_nyquist() 
-        # motor.print_state_space()
-        # motor.step_response()
+        motor.simulate()
+        motor.plot_motor()
+        motor.plot_bode()
+        motor.plot_nyquist() 
+        motor.print_state_space()
+        motor.step_response()
         motor.chaves()
         motor.exec_pwm()
 
